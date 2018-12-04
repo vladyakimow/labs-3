@@ -33,9 +33,7 @@ public class PersonTableController {
 	private TableColumn<Person, String> durationColumn;
 
 	private ObservableList<Person> masterData = FXCollections.observableArrayList();
-	public PersonTableController() {
-		
-	}
+	
 	private void initRecord() throws FileNotFoundException {
 		Scanner in = new Scanner(new File("files/records.txt"));
 		String s;
