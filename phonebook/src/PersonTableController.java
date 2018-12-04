@@ -34,20 +34,12 @@ public class PersonTableController {
 
 	private ObservableList<Person> masterData = FXCollections.observableArrayList();
 	public PersonTableController() {
-		masterData.add(new Person(1,"Ганс", "Хеинз","15:24","15.02.2016","01:25:00"));
-		masterData.add(new Person(2,"Рич", "Мюллер","15:24","14.02.2016","01:25:00"));
-		masterData.add(new Person(3,"Ганс", "Курт","15:24","13.02.2016","01:04:24"));
-		masterData.add(new Person(4,"Корнелия", "Мейер","15:24","12.02.2016","00:01:25"));
-		masterData.add(new Person(5,"Вернер", "Мейер","15:24","06.02.2014","10:23:24"));
-		masterData.add(new Person(6,"Лидия", "Кант","15:24","10.02.2016","05:10:23"));
-		masterData.add(new Person(7,"Анна", "Лучший","15:24","10.02.2016","00:00:34"));
-		masterData.add(new Person(8,"Стефан", "Мейер","15:24","10.02.2015","00:00:23"));
-		masterData.add(new Person(9,"Мартин", "Мюллер","15:24","10.02.2016","00:00:21"));
+		
 	}
 	private void initRecord() throws FileNotFoundException {
 		Scanner in = new Scanner(new File("files/records.txt"));
 		String s;
-		int k = 9;
+		int k = 0;
 		while (in.hasNextLine()) {
 			k++;
 			s = in.nextLine();
