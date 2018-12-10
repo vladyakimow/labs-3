@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Телефонная книга");
+        primaryStage.setTitle("PhoneBook");
 
         try {
             FXMLLoader loader = new FXMLLoader(Main.class.getResource("PersonTable.fxml"));
