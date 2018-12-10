@@ -92,4 +92,4 @@ public class Person {
 	public StringProperty durationProperty() {
 		return duration;
 	}
-}
+} 
