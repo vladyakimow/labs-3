@@ -105,6 +105,6 @@ public class PersonTableController {
 
     @FXML
     public void handleChoice() {
-        //здесь реализуй поиск
+        
     }
 }
